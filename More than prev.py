@@ -1,4 +1,4 @@
 a = input('a = ').split(' ')
-for i in range(0 , len(a)):
+for i in range(1 , len(a)):
     if int(a[i]) > int(a[i - 1]):
         print(a[i] , end = ' ')
