@@ -50,6 +50,13 @@ while x!=x1 or y!=y1 or z!=z1:
     if z < z1:
         print('Wrong pasword - ACCESS DENIED-Z-too BIG')
         z1 = int(input('z vers = '))
+    if x == x1:
+        print('X IS CLEAR')
+    if y == y1:
+        print('Y IS CLEAR')
+    if z == z1:
+        print('Z IS CLEAR')
+  
    
 else:
     if x==x1 and y == y1 and z == z1:
