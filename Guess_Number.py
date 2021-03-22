@@ -23,10 +23,11 @@ x = np.random.randint(0, 9)
 y = np.random.randint(0, 9)
 z = np.random.randint(0, 9)
 
+
 paswr = x**2,y**3,z**4
-x1 = int(input('x1 vers = '))
-y1 = int(input('y1 vers = '))
-z1 = int(input('z1 vers = '))
+x1 = int(input('FIRST NUMBER = '))
+y1 = int(input('SECOND NUMBER = '))
+z1 = int(input('THIRD NUMBER = '))
 unloc = x,y,z
 i = 0
 n = int(input(' NUMBERS OF TRY =  '))
@@ -35,22 +36,22 @@ while x!=x1 or y!=y1 or z!=z1:
     i+=1
     if x > x1:
         print('Wrong pasword - ACCES DENIED-X-too SMALL')
-        x1 = int(input('x vers = '))
+        x1 = int(input('FIRST NUMBER = '))
     if y > y1:
         print('Wrong pasword - ACCES DENIED-Y-too SMALL')
-        y1 = int(input('y vers = '))
+        y1 = int(input('SECOND NUMBER = '))
     if z > z1:
         print('Wrong pasword - ACCES DENIED-Z-too SMALL')
-        z1 = int(input('z vers = '))
+        z1 = int(input('THIRD NUMBER = '))
     if x < x1:
         print('Wrong pasword - ACCES DENIED-X-too BIG')
-        x1 = int(input('x vers = '))
+        x1 = int(input('FIRST NUMBER = '))
     if y < y1:
         print('Wrong pasword - ACCES DENIED-Y-too BIG')
-        y1 = int(input('y vers = '))
+        y1 = int(input('SECOND NUMBER = '))
     if z < z1:
         print('Wrong pasword - ACCES DENIED-Z-too BIG')
-        z1 = int(input('z vers = '))
+        z1 = int(input('THIRD NUMBER = '))
     if x == x1:
         print('X IS CLEAR')
     if y == y1:
@@ -66,4 +67,4 @@ while x!=x1 or y!=y1 or z!=z1:
    
 else:
     if x==x1 and y == y1 and z == z1:
-        print('ACCES GRANTED-VICTORY = ',unloc,'Lives used = ', i )
+        print('ACCES GRANTED-VICTORY = ',unloc,'Lives used = ', i,'/',n)
