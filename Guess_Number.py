@@ -67,4 +67,4 @@ while x!=x1 or y!=y1 or z!=z1:
    
 else:
     if x==x1 and y == y1 and z == z1:
-        print('ACCES GRANTED-VICTORY = ',unloc,'Lives used = ', i,'/',n)
+        print('ACCES GRANTED-VICTORY = ',unlock,'Lives used = ', i,'/',n)
