@@ -6,13 +6,13 @@ c =[]
 cc = []
 ccc= []
 cccc =[]
-c = input("enter secret word 1 = ").lower()
+c = input("Введите первое секретное слово = ").lower()
 l.append(c)
-cc =input("enter secret word 2 = ").lower()
+cc =input("Введите второе секретное слово = ").lower()
 l.append(cc)
-ccc= input("enter secret word 3 = ").lower()
+ccc= input("Введите третье секретное слово = ").lower()
 l.append(ccc)
-cccc= input("enter secret word 4 = ").lower()
+cccc= input("Введите четвертое секретное слово = ").lower()
 l.append(cccc)
 print("П О Л Е - Ч У Д Е С")
 ch=input('Введите "старт" чтобы начать игру: ')
